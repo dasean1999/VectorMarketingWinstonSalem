@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0b8b85aa-3419-4089-94df-6252c793423d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../Brown-Activity7New.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1TJvPfTczimaNK0rl5dIXkLMO6e" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jquery-ui-1.12.1.custom/jquery-ui.theme.min.css" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dasea\Documents\UNCC\Exercise\Brown-VectorMarketingWinston" />
+      <recent name="C:\Users\dasea\Documents\UNCC\Exercise\Brown-VectorMarketingWinston\jquery-ui-1.12.1.custom" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b8b85aa-3419-4089-94df-6252c793423d" name="Default Changelist" comment="" />
+      <created>1573190989104</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573190989104</updated>
+      <workItem from="1573190990217" duration="28474000" />
+      <workItem from="1573272254552" duration="3004000" />
+      <workItem from="1573342542119" duration="15589000" />
+      <workItem from="1573520145804" duration="2110000" />
+      <workItem from="1573528535654" duration="2219000" />
+      <workItem from="1574050819306" duration="5036000" />
+      <workItem from="1574458470210" duration="64000" />
+      <workItem from="1574458535316" duration="15080000" />
+      <workItem from="1574477304795" duration="6134000" />
+      <workItem from="1574528329462" duration="2513000" />
+      <workItem from="1574714159779" duration="4989000" />
+      <workItem from="1575065495560" duration="20275000" />
+      <workItem from="1575318588493" duration="15338000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

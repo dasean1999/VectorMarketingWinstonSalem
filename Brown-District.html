@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Our District</title>
+    <link rel="stylesheet" type="text/css" href="Brown-index.css">
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.js"></script>
+    <script src="Brown-index.js"></script>
+</head>
+<body>
+<header>
+    <!--/*encases all of the nav bar*/-->
+    <div id="myHeader" class="header">
+        <!--/*returns home if clicked*/-->
+        <img class="interface" src="../Brown-VectorMarketingWinston/site%20images/xvector_marketing.jpg.pagespeed.ic.sMr9pxLtbI.jpg" alt="logo" id="logo">
+        <!--/*encases all the buttons*/-->
+        <div class="interface">
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <!--/*opens the dropdown if clicked*/-->
+            <button id="drop" class="drop">What We Offer &nbsp; <i class="down"></i></button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="Brown-Job.html">The Job</a>
+                <a href="Brown-StuOpps.html">Student Perks</a>
+            </div>
+            &nbsp;
+
+        </div>
+        &nbsp;
+        &nbsp;
+        &nbsp;
+        <div class="interface">
+            <!--/*opens the second dropdown if clicked*/-->
+            <button id="drop2" class="drop">Who Are We &nbsp; <i class="down"></i></button>
+            <div id="myDropdown2" class="dropdown-content2">
+                <a href="Brown-Company.html">Company</a>
+                <a href="Brown-Articles.html">More Links</a>
+            </div>
+            &nbsp;
+            &nbsp;
+            <!--/*goes to the district page if clicked*/-->
+            <button type="button" id="district" class="active">Our District</button>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <!--goes to the support page if clicked-->
+            <button type="button" id="support">Support</button>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <!--goes to the gallery page if clicked-->
+            <button type="button" id="gallery">Gallery</button>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <!--returns home if clicked-->
+            <button type="button" id="home">Home</button>
+        </div>
+    </div>
+</header>
+<!--outlines text-->
+<main>
+    <h1>The Winston Way</h1>
+    <div>
+        <p>Under the direct leadership of our Division Manager, Larry "The Legend" Manley, Vector Marketing Winston has changed the business. Led by our resilient District Manager Blake Hess, and his band of Assistant Managers, we have adopted a standard of excellence dubbed "The Winston Way"</p><p>The main points of "The Winston Way" include...</p>
+        <div id="bullets">
+            <ul>
+                <li id="head1"><strong>&rarr;&nbsp;True Professionalism</strong></li>
+                <li id="head2"><strong>&emsp;&rarr;&nbsp;Pursuit of Growth</strong></li>
+                <li id="head3"><strong>&emsp;&emsp;&rarr;&nbsp;Positive Mentality</strong></li>
+                <li id="head4"><strong>&emsp;&emsp;&emsp;&rarr;&nbsp;A Culture of Fun</strong></li>
+            </ul>
+        </div>
+        <p>We feel that a commitment to these key values has allowed our district to excel for the past 3 years. Our organization has always performed within the top 5 of all other organizations in our division since Blake's promotion to District Manager with yearly office totals averaging over $325,000!</p>
+    </div>
+    <div>
+        <h1>Core Management</h1>
+        <!--sections off slideshow of managers-->
+        <div class="cycle-slideshow" data-cycle-fix="scrollHorz" data-cycle-timeout="5000" data-cycle-caption-plugin=caption2>
+            <div class="cycle-overlay"></div>
+            <!--sections off image-->
+            <img src="../Brown-VectorMarketingWinston/site%20images/blake.jpg" alt="blake" class="cycle" data-cycle-title="Blake Hess"  data-cycle-desc="Career Sales- $1 million: Year Started-2013">
+            <!--sections off image-->
+            <img src="../Brown-VectorMarketingWinston/site%20images/jordan.jpg" alt="jordan" class="cycle" data-cycle-title="Jordan Rumford" data-cycle-desc="Career Sales: $20,000: Year Started-2018">
+            <!--sections off image-->
+            <img src="../Brown-VectorMarketingWinston/site%20images/tanner.jpg" alt="tanner" class="cycle" data-cycle-title="Tanner Bibey" data-cycle-desc="Career Sales-$40,000: Year Started-2018">
+            <!--sections off image-->
+            <img src="../Brown-VectorMarketingWinston/site%20images/ME.jpg" alt="me" class="cycle" data-cycle-title="Da'Sean Brown" data-cycle-desc="Career Sales-$25,000: Year Started-2018">
+        </div>
+    </div>
+</main>
+<br>
+<br>
+<footer>
+    <!--styles button and allows people to apply-->
+    <div class="interface">
+        <h2>Apply Now!!</h2>
+        <p>If you're interested, click the link and schedule some time to meet with one of our Winston managers!</p>
+        <!--links to application-->
+        <a href="https://docs.google.com/forms/d/1esVs5BAyTHdU2uwycdBKgK5aLoU645Z79HbTj_GracE/viewform?edit_requested=true" class="apply" target="_blank" id=application>Apply</a>
+    </div>
+    &nbsp;
+    <br>
+    <br>
+    <div class="footer-text">
+        <a href="https://www.vectormarketing.com/" target="_blank">Vector Marketing (National)</a>
+        <br>
+        <a href="https://www.cutco.com/" target="_blank">CUTCO Cutlery</a>
+        <br>
+        <a href="https://www.vectorconnect.com/spring/login.do" target="_blank">VectorConnect</a>
+        <br>
+        <a href="Brown-Support.html">Support</a>
+    </div>
+    <br>
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,504 @@
+/*changes the font of all paragraph texts*/
+p {
+    font-family: Franklin Gothic Book;
+    font-size: large;
+    color: black;
+
+}
+
+/*styles main*/
+main {
+    padding-top: 130px;
+}
+/*styles headers and list text*/
+h1,h2,h3,li{
+    color: black;
+    text-align: left;
+}
+/*orders the cycle2 plugins*/
+.cycle-slideshow{
+    z-index: 9;
+}
+/*styles the cycle2 captions*/
+#adv-custom-caption{
+    padding: 10px;
+    background-color: rgba(0,0,0,.4);
+    color: white;
+    font-size: medium;
+    margin-right: 900px;
+}
+#bullets{
+    list-style-position: inside;
+    text-align: center;
+}
+/*styles button on the Company page*/
+.button-link{
+    color: dodgerblue;
+    background-color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 30px;
+    font-family: "Elephant", serif;
+}
+/*cycle overlay styling*/
+.cycle-overlay{
+    padding: 10px;
+    background-color: rgba(0,0,0,.4);
+    margin-right: 943px;
+    color: white;
+}
+/*styles accordion_text*/
+.accordion_text{
+    color: #007fff;
+    font-family: "Bookman Old Style", serif;
+}
+/*resizes list elements*/
+.bigL{
+    font-size: x-large;
+}
+/*styles accordion widget*/
+#accordion{
+    width: 509px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*determines calculating*/
+*{
+    box-sizing: border-box;
+}
+/*sets up header*/
+.header, header{
+    z-index: 10;
+    background-color: darkgray;
+    color: darkgray;
+    margin: auto;
+    border-radius: 25px;
+    position: fixed;
+    overflow: hidden;
+    width: 98.75%;
+    text-align: center;
+}
+/*allows for wrapping elements*/
+.header #interface {
+    float: left;
+}
+/*sets up hidden class*/
+.hidden{
+    display: none;
+}
+/*creates center classes*/
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.centerText{
+    text-align: center;
+}
+/*organizes content class for scrolling*/
+.content{
+    padding: 10px;
+    border: 10px solid darkgray;
+    width: 100%;
+}
+/*sets up picture captions for district page*/
+.picContent{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0,0,0);
+    background: rgba(255,255,255,0.5);
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+/*positions next button*/
+.next{
+    right:0;
+    border-radius: 3px 0 0 3px;
+}
+/*animates */
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+/*sets up dropbox classes*/
+.drop,.drop2 {
+    color: dodgerblue;
+    background-color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 30px;
+}
+/*stylizes all links*/
+a{
+    text-decoration: none;
+    padding: 5px;
+    color: midnightblue;
+}
+/*creates a defaulted color for links*/
+a:visited, a:focus{
+    color: midnightblue;
+}
+/*changes color of links when hovering*/
+a:hover{
+    color: lightsteelblue;
+}
+/*controls colors when hovering buttons*/
+.drop:hover,.drop:focus{
+    background-color: lightsteelblue;
+}
+/*positions interface class and buttons*/
+.interface {
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+}
+/*Deca class*/
+.DECA{
+    width: 259.2px;
+    height: 333.6px;
+}
+/*logo id css styling*/
+#logo{
+    width:320px;height:80px;
+}
+/*styles dropbox elements*/
+#dropclass1{
+    top: 20px;
+}
+#dropclass2{
+    top: 30px;
+}
+/*organizes the dropbox contents*/
+.dropdown-content2{
+    display: none;
+    background-color: white;
+    z-index: 89;
+    position: fixed;
+    margin-left: 18px;
+}
+.dropdown-content{
+    margin-left: 43px;
+    display: none;
+    background-color: white;
+    position: fixed;
+    z-index: 90;
+
+}
+
+/*styles arrows for dropdown*/
+i{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+/*creates no bullet list*/
+#bullets ul{
+    list-style: none;
+}
+/*creates the down arrow for dropbox*/
+.down{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.right{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+/*styles the contents of the dropboxes*/
+.dropdown-content2 a, .dropdown-content a {
+    color: dodgerblue;
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+    z-index: 88;
+}
+/*styles the hover of the dropdown boxes*/
+.dropdown-content a:hover, .dropdown-content2 a:hover {
+    background-color: lightsteelblue;
+}
+/*defines show class*/
+.show{
+    display: block;
+}
+/**defines apply class*/
+.apply{
+    color: dodgerblue;
+    background-color: white;
+    font-family: Algerian, serif;
+    padding: 10px;
+    border-radius: 10px;
+    font-size:20px;
+}
+/*rotates images*/
+.rotate90{
+    transform: rotate(90deg);
+}
+/*styles apply button when hovering*/
+.apply:hover{
+    color: dodgerblue;
+    background-color: lightsteelblue;
+    padding: 10px;
+    font-size: 20px;
+}
+/*styles text in footer*/
+.footer-text{
+    font-size: 15px;
+}
+/*styles all buttons*/
+button {
+    color: dodgerblue;
+    background-color: white;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 30px;
+    font-family: Bahnschrift, serif;
+}
+/*controls color of buttons when hovering*/
+button:hover,button:focus{
+    background-color: lightsteelblue;
+    padding: 20px;
+
+}
+/*cycle pictures class*/
+.cycle{width:305px; height:375px;}
+/*office id style*/
+#office{width:509px; height:256px;}
+/*tracks the page I'm on*/
+.active{
+    background-color: rgba(255,0,0,.1);
+}
+/*tracks where we are on the site*/
+button[name='drop'] {background-color: rgba(255,0,0,.1);}
+/*decreases whitespace*/
+.bigger{
+    font-family: Century, serif;
+}
+.notCenter{
+    float: right;
+}
+#move{
+    float: left;
+}
+/*styles the images on the gallery*/
+#flick img{
+    border: 10px solid indianred;
+    border-radius: 10px;
+    margin: 5px;
+}
+/*makes body text background blue*/
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+/*makes footer text background white*/
+footer {
+    background-color: darkgray;
+    border-radius: 15px;
+    text-decoration-color: #F8F8F8;
+    text-align: left;
+}
+/*centers caption for stuOpps page*/
+figcaption{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: black;
+}
+
+/*changes font of body*/
+#head1,#head2,#head3,#head4{
+    font-family: Arial, serif;
+}
+
+/*Box Slider CSS File*/
+
+/** VARIABLES
+===================================*/
+/** RESET AND LAYOUT
+===================================*/
+
+.bx-wrapper {
+    position: relative;
+    margin-bottom: 60px;
+    padding: 0;
+    *zoom: 1;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+}
+.bx-wrapper img {
+    max-width: 100%;
+    display: block;
+    top: 10px;
+
+}
+.bxslider {
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    color: lightblue;
+}
+ul.bxslider {
+    list-style: none;
+}
+.bx-viewport {
+    /*fix other elements on the page moving (on Chrome)*/
+    -webkit-transform: translatez(0);
+
+}
+
+/** THEME
+===================================*/
+.bx-wrapper {
+    background: lightblue;
+}
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+}
+/* LOADER */
+.bx-wrapper .bx-loading {
+    min-height: 50px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    bottom: -10px;
+}
+/* PAGER */
+.bx-wrapper .bx-pager {
+    text-align: center;
+    font-size: .85em;
+    font-family: Arial;
+    font-weight: bold;
+    color: #666;
+    padding-top: 20px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #666;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus {
+    background: #000;
+
+}
+.bx-wrapper .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+    vertical-align: bottom;
+    *zoom: 1;
+    *display: inline;
+}
+.bx-wrapper .bx-pager-item {
+    font-size: 0;
+    line-height: 0;
+}
+/* DIRECTION CONTROLS (NEXT / PREV) */
+.bx-wrapper .bx-prev {
+    left: 10px;
+    position: absolute;
+    opacity: 75%;
+    background: url("../Brown-VectorMarketingWinston/site images/bootstrap_bxslider_images_controls.png") 0 -32px no-repeat;
+}
+.bx-wrapper .bx-prev:hover,
+.bx-wrapper .bx-prev:focus {
+    background-position: 0 0;
+}
+.bx-wrapper .bx-next {
+    right: 10px;
+    position: absolute;
+    opacity: 75%;
+    background: url("../Brown-VectorMarketingWinston/site images/bootstrap_bxslider_images_controls.png") -43px -32px no-repeat;
+}
+.bx-wrapper .bx-next:hover,
+.bx-wrapper .bx-next:focus {
+    background-position: -43px 0;
+}
+.bx-wrapper .bx-controls-direction a {
+    top: 50%;
+    margin-top: -16px;
+    outline: 0;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    z-index: 9;
+}
+.bx-wrapper .bx-controls-direction a.disabled {
+    display: none;
+}
+/* AUTO CONTROLS (START / STOP) */
+.bx-wrapper .bx-controls-auto {
+    text-align: center;
+}
+.bx-wrapper .bx-controls-auto .bx-start {
+    display: block;
+    text-indent: -9999px;
+    width: 10px;
+    height: 11px;
+    outline: 0;
+    background: url("../Brown-VectorMarketingWinston/site images/bootstrap_bxslider_images_controls.png") -86px -11px no-repeat;
+    margin: 0 3px;
+}
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active,
+.bx-wrapper .bx-controls-auto .bx-start:focus {
+    background-position: -86px 0;
+}
+.bx-wrapper .bx-controls-auto .bx-stop {
+    display: block;
+    text-indent: -9999px;
+    width: 9px;
+    height: 11px;
+    outline: 0;
+    background: url('../Brown-VectorMarketingWinston/site images/bootstrap_bxslider_images_controls.png') -86px -44px no-repeat;
+    margin: 0 3px;
+}
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active,
+.bx-wrapper .bx-controls-auto .bx-stop:focus {
+    background-position: -86px -33px;
+}
+/* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+    text-align: left;
+    width: 80%;
+}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+    right: 0;
+    width: 35px;
+}
+/* IMAGE CAPTIONS */
+.bx-wrapper .bx-caption {
+    position: relative;
+    bottom: 10px;
+    left: 0;
+    background: #666;
+    background: rgba(80, 80, 80, 0.75);
+    width: 100%;
+}
+.bx-wrapper .bx-caption span {
+    color: #fff;
+    font-family: Arial;
+    display: block;
+    font-size: .85em;
+    padding: 10px;
+}
+
